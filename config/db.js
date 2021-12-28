@@ -1,7 +1,7 @@
 const sequelize = require("sequelize");
 
-const db = new sequelize("crudnodejs", "root", "", {
-  dialect: "mysql"
+const db = new sequelize("smartschool", "root", "", {
+	dialect: "mysql",
 });
 
 db.sync({});
